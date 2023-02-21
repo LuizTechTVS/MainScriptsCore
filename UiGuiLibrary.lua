@@ -192,7 +192,7 @@ function library:CreateWindow(argstable)
 
 local name = argstable["Name"]
 local size = argstable["UiSize"]
-
+local bind = argstable["Bind"]
 
     local window = { }
 
