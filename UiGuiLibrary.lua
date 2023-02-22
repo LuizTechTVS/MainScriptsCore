@@ -576,7 +576,7 @@
 				updateSectionFrame()
 				UpdateSize()
 				local Elements = {}
-				function Elements.NewButton(bname,tipINf, callback, argstable)
+				function Elements.NewButton(argstable)
 					local bname = argstable["Name"]
 					local tipINf = argstable["InfoText"] or ""
 					local callback = argstable["Function"]
