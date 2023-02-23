@@ -1,6 +1,6 @@
 local UtilityLibrary = {}
 
-function Utility:PlayersCreateHitbox(argstable)
+function UtilityLibrary:PlayersCreateHitbox(argstable)
 local hitpart = argstable["HitPart"]
 local hitsize = argstable["HitSize"]
 local trans = argstable["Transparency"]
